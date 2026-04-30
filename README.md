@@ -28,3 +28,10 @@ README.md
 ## Core Thesis
 AI does not become trustworthy because it is powerful.
 AI becomes trustworthy when it is governed.
+
+## Using This Template
+1. Review doctrine in `docs/source-framework/` before proposing governance-sensitive changes.
+2. Initialize governance controls in `.ai-constitution/` for your project context.
+3. Use `templates/` artifacts for decision records and governance checklists.
+4. Keep `AGENTS.md` and `.github` governance workflows/templates intact for reviewability.
+
