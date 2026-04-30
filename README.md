@@ -2,27 +2,29 @@
 
 Governance-first repository starter for building AI systems, automations, agents, and platform integrations under the AI Constitution Framework.
 
-This template embeds structure, authority, transparency, auditability, and human oversight into every project from day one.
+## Core Doctrine Source
+Canonical source documents are stored in:
 
-## Core Doctrine
+- `docs/source-framework/`
 
-- Structure before scale
-- Authority before autonomy
-- Transparency before trust
-- Audit before deployment confidence
-- Human oversight above automated execution
-- Retrieval is not authority
-- Architecture determines outcomes
-
-## Purpose
-
-This repository is designed to be used as a starter template for future projects.
-
-Every repository created from this template should begin as a governed environment, not an uncontrolled codebase.
+These files are preserved as the doctrine layer and should be referenced when creating governance or architecture decisions.
 
 ## Starter Structure
 
 ```text
 .ai-constitution/
 .github/
+docs/source-framework/
+templates/
 README.md
+```
+
+## Governance-First Workflow
+1. Start from doctrine in `docs/source-framework/`.
+2. Apply controls in `.ai-constitution/`.
+3. Use templates in `templates/` to keep changes auditable and reviewable.
+4. Enforce governance checks in pull requests via `.github/PULL_REQUEST_TEMPLATE.md`.
+
+## Core Thesis
+AI does not become trustworthy because it is powerful.
+AI becomes trustworthy when it is governed.
