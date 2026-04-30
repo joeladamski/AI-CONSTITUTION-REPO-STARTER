@@ -28,3 +28,11 @@ README.md
 ## Core Thesis
 AI does not become trustworthy because it is powerful.
 AI becomes trustworthy when it is governed.
+
+## Using This Template
+
+1. Click **Use this template** on GitHub to create a new repository.
+2. In your new repository, keep `docs/source-framework/` as canonical doctrine (source reference), and operationalize project-specific controls in `.ai-constitution/`.
+3. Replace `TBD` owners in `.ai-constitution/CHANGE_AUTHORITY.md` before any production use.
+4. Use artifacts in `templates/` to seed decision logs, governance checklists, and review records.
+5. Keep pull requests governance-mapped with `.github/PULL_REQUEST_TEMPLATE.md` and ensure `.github/workflows/governance-check.yml` passes.
